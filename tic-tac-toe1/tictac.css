@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.main-container{
+	height: 100vh;
+	background-color: yellow;
+	overflow-y:scroll;
+}
+
+#container{
+	border: 1px solid #ddd;
+	background-color: #ddd;
+}
+
+.input-form {
+	width: 350px;
+	margin: 0 auto;
+}
+
+.input-form > div{
+	padding: 10px;
+}
+
+#tic-tac-container{
+	margin-top: 40px;
+}
+
+.grid-box {
+	border: 2px solid #888;
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	height: 60px;
+	width: 60px;
+	border: 2px solid #888;
+}

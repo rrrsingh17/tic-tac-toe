@@ -1,0 +1,17 @@
+const fillGrid = (x, y) => {
+    const container = document.getElementById('block')
+    num_of_blocks=x*y;
+    const test = Array(num_of_blocks).keys()
+    var i=0;
+    var j=0;
+            for (i=0;i<x;i++){
+                for (j=0;j<y;j++)
+                {
+                let markup = `<div id="card ${i}" class="block" style="background-color: red; border: 1px black solid;"></div>`
+                container.innerHTML += markup;
+                }
+                let breaks='<br>';
+                container.innerHTML +=breaks;
+            }
+}
+blockSize, numOfBlocks, color
