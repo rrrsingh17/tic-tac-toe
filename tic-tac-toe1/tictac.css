@@ -41,3 +41,7 @@
 	width: 60px;
 	border: 2px solid #888;
 }
+.winner{
+    text-align:center;
+    font-size:20px;
+}
